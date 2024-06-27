@@ -1,0 +1,25 @@
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0;    
+}
+
+.default-text {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #050000;
+    font-family: Arial, sans-serif;
+
+}
+
+.user-input {
+    padding-left: calc(10px + 100px); /* Adjust based on the width of default text */
+    font-family: Arial, sans-serif;
+    color: #050000;
+    margin-right: 0;
+    margin-left: 0;
+}
